@@ -1,44 +1,61 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <title>Dice Game</title>
+.container1 {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    
-    <div class="alert alert-danger" role="alert">
-      <span class="bold-alert">
-        <strong>Info!</strong> Refresh the page to play the Dice game!
-      </span> 
-    </div>
+.alert {
+  text-align: center;
+}
 
-    <div class="container1">
-      <h1 class="bgh1">Refresh Me</h1>
+.bold-alert {
+  font-size: 1.5rem;
+}
 
-      <div class="dice">
-        <p>Player 1</p>
-        <img class="img1" src="images/dice6.png" />
-      </div>
+.closebtn {
+  font-size: 35px;
+  font-size: 2rem;
+}
 
-      <div class="dice">
-        <p>Player 2</p>
-        <img class="img2" src="images/dice6.png" />
-      </div>
-    </div>
+.dice {
+  text-align: center;
+  display: inline-block;
+}
 
-    <footer >www 🎲 App Brewery 🎲 com</footer>
+body {
+  background-color: #393e46;
+  margin: 0;
+}
 
-    
-    <script src="index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-</html>
+.bgh1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+#new1,
+#new2,
+#new3,
+#new4,
+#new5 {
+  display: none;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
