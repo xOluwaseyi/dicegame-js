@@ -4,9 +4,12 @@
   text-align: center;
 }
 
-.bold-alert  {
+.alert {
+  text-align: center;
+}
+
+.bold-alert {
   font-size: 1.5rem;
-  padding-left: 50px;
 }
 
 .closebtn {
